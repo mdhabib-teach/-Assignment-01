@@ -1,3 +1,63 @@
-body{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background: #fff;
+    font-family: 'Arimo', sans-serif;
+}
+
+.parent{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+ img{
+    width: 32px;
+    height: 32px;
+}
+
+.logo h2{
+    font-size:20px;
+    font-weight:700;
+    
+    color: #0D1B2A;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 18px;
+    
+}
+
+
+.btn{
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
 }
