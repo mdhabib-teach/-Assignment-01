@@ -291,5 +291,68 @@ font-size:13px;
 /* card section end*/
 
 
+/* FaQ section  start*/
+.faq-section{
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.faq-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.faq-header p{
+    font-size: 16px;
+    color: #575757;
+}
+
+.faq-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.faq-item{
+    background: #F8F9FB;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.faq-item:hover{
+    transform: translateY(-5px);
+}
+
+.faq-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1B2A;
+    margin-bottom: 14px;
+}
+
+.faq-item p{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #575757;
+}
+/* FaQ section  end*/
+
+/* footr start */
+/* footr end */
+
+
+
+
 
  
