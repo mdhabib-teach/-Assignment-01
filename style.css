@@ -168,9 +168,10 @@ margin-top:250px;
 }
 
 .pricing-card{
+
     background:#F8F9FB;
     color: white;
-    padding: 30px;
+    padding:20px;
     border:2px solid #E5E7EB;
     border-radius: 16px;
 }
@@ -184,7 +185,7 @@ margin-top:250px;
 .pricing-card h2{
     color:#0D1B2A;
     font-family: 'Inter', sans-serif;
-    font-size: 56px;
+    font-size: 48px;
     margin-top: 10px;
 }
 
@@ -195,7 +196,7 @@ margin-top:250px;
 
 .pricing-card ul{
     list-style: none;
-    margin: 35px 0;
+    margin: 20px 0;
 }
 
 .pricing-card ul li{
@@ -233,7 +234,7 @@ color:#575757;
 /* batton style */
 .get{
 width:100%;
-padding:14px 28px;
+padding:12px 20px;
 border-radius:10px;
 border:2px solid #2563EB;
 color:#2563EB;
@@ -243,7 +244,7 @@ margin-top:50px;
 }
 .contact{
     width:100%;
-    padding:14px 28px;
+    padding:12px 20px;
     border-radius:10px;
     border:2px solid #0D1B2A;
     font-weight:600;
@@ -258,7 +259,7 @@ margin-top:50px;
 } 
  .pro{
     width:100%;
-    padding:14px 28px;
+    padding:12px 20px;
     border:none;
     border-radius:10px;
     background-color: #2563EB;
